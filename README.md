@@ -1,4 +1,4 @@
-Simple command-line interface for the Wayback Machine's Save Page Now (SPN) API.
+Unofficial command-line interface for the Wayback Machine's Save Page Now API.
 
 ## Installation
 ```bash
@@ -40,7 +40,7 @@ spn -i urls
 
 # save urls from a pipe and only save urls not already saved in the last 3 days
 some-command-that-outputs-urls | spn -i - --if-not-archived-within=3d
-```
 
-## Official API Documentation
-https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA/edit
+# save urls from a pipe and wait for the remote save jobs to complete
+some-command-that-outputs-urls | spn -i - --wait
+```

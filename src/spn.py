@@ -2,7 +2,7 @@
 
 '''Unofficial CLI for the Wayback Machine's Save Page Now API.'''
 
-__version__ = '0.2.1'
+__version__ = '0.2.2'
 
 import asyncio
 import collections
@@ -241,3 +241,6 @@ def _main(urls, access_key, secret_key, file, output, wait, **kwargs):
 def main():
     return _main(auto_envvar_prefix='SPN',
                  default_map=confuse.Configuration('spn').flatten())
+
+# official API documentation:
+# https://docs.google.com/document/d/1Nsv52MvSjbLb2PCpHlat0gkzw0EvtSgpKHu4mk0MnrA/edit
