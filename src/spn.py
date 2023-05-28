@@ -2,7 +2,7 @@
 
 '''Unofficial CLI for the Wayback Machine's Save Page Now API.'''
 
-__version__ = '0.2.0'
+__version__ = '0.2.1'
 
 import asyncio
 import collections

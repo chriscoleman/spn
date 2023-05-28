@@ -8,7 +8,7 @@ pip install spn
 ## API Keys
 
 Get your API keys [here](https://archive.org/account/s3.php) and put them in
-`~/.config.spn/config.yaml`:
+`~/.config/spn/config.yaml`:
 
 ```yaml
 ---
